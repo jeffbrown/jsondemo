@@ -1,0 +1,9 @@
+import demo.Location
+
+model {
+	Location location
+}
+
+json {
+    xLocation location.x
+}

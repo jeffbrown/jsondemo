@@ -1,0 +1,9 @@
+import demo.Vehicle
+
+model {
+	Iterable<Vehicle> vehicleList
+}
+
+json tmpl.vehicle(vehicleList ?: [])
+//json tmpl.location(vehicleList)
+

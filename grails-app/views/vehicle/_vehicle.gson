@@ -1,0 +1,10 @@
+import demo.Vehicle
+
+model {
+	Vehicle vehicle
+}
+
+json {
+    vehicleName vehicle.name
+    tmpl.location(vehicle.locations)
+}
