@@ -7,8 +7,6 @@ class BootStrap {
         v1.addToLocations(x: 4, y: 7)
         v1.addToLocations(x: 9, y: 5)
         v1.save()
-
-        println "V1: $v1"
     }
 
     def destroy = {
