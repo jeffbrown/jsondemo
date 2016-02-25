@@ -6,5 +6,5 @@ model {
 
 json {
     vehicleName vehicle.name
-    tmpl.location(vehicle.locations)
+    locations tmpl.location(vehicle.locations)
 }

@@ -6,4 +6,5 @@ model {
 
 json {
     xLocation location.x
+    yLocation location.y
 }
