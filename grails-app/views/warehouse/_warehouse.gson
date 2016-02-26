@@ -6,5 +6,5 @@ model {
 
 json {
     warehouseName warehouse.name
-    inventory tmpl.part(warehouse.parts)
+    inventory tmpl.piece(warehouse.parts)
 }
