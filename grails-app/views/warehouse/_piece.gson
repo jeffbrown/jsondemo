@@ -1,9 +1,9 @@
 import demo.Part
 
 model {
-	Part part
+	Part piece
 }
 
 json {
-    partName part.name
+    partName piece.name
 }
