@@ -1,0 +1,9 @@
+import demo.Part
+
+model {
+	Part part
+}
+
+json {
+    partName part.name
+}

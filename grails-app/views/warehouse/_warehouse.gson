@@ -1,0 +1,10 @@
+import demo.Warehouse
+
+model {
+	Warehouse warehouse
+}
+
+json {
+    warehouseName warehouse.name
+    inventory tmpl.part(warehouse.parts)
+}

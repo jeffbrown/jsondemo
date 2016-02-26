@@ -1,0 +1,8 @@
+import demo.Vehicle
+
+model {
+	Iterable<Warehouse> warehouseList
+}
+
+json tmpl.warehouse(warehouseList ?: [])
+
